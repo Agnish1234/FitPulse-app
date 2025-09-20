@@ -33,8 +33,10 @@ FitPulse helps users log workouts, calculate calories, analyze progress, and sta
     source venv/bin/activate   # Mac/Linux
     venv\Scripts\activate      # Windows
    
-4. **pip install -r requirements.txt**
-    streamlit run app.py
+4. **Install dependencies**
+    pip install -r requirements.txt
 
+5. **Run the app**
+    streamlit run app.py
     
 
