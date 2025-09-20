@@ -28,4 +28,13 @@ FitPulse helps users log workouts, calculate calories, analyze progress, and sta
    ```bash
    git clone https://github.com/your-username/FitPulse.git
    cd FitPulse
+2. **Create a virtual environment (recommended)**
+    python -m venv venv
+    source venv/bin/activate   # Mac/Linux
+    venv\Scripts\activate      # Windows
+   
+4. **pip install -r requirements.txt**
+    streamlit run app.py
+
+    
 
