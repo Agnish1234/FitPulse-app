@@ -1,42 +1,50 @@
 # 💪 FitPulse – Smart Workout Tracker App
 
-A full-stack fitness tracking app built with **Python, Streamlit, and SQLite**.  
-FitPulse helps users log workouts, calculate calories, analyze progress, and stay motivated with an interactive dashboard.
+✨ Features
+⏱️ Smart Timer: Exercise/rest intervals with pause/resume functionality
 
----
+📊 Analytics Dashboard: Weekly progress tracking and exercise statistics
 
-## 🚀 Features
-- 🔐 **Secure authentication** with password hashing + salting  
-- 🏋️ **Workout logging** with exercises, duration, and calories burned  
-- 📊 **Analytics dashboard** with progress charts (Matplotlib & Plotly)  
-- 💾 **SQLite database integration** with backups and indexes  
-- ⏱️ **Rest timer and session tracking** using Streamlit’s session state  
+🗂️ Workout History: Complete workout log with pagination and search
 
----
+🔧 Custom Programs: Pre-built workout routines and custom exercise creation
 
-## 🛠️ Tech Stack
-- **Frontend & Backend:** Streamlit (Python)  
-- **Database:** SQLite  
-- **Data Analysis:** Pandas  
-- **Visualization:** Matplotlib, Plotly  
+💾 Data Persistence: SQLite database with automatic backups
 
----
+📱 Responsive Design: Works on desktop and mobile devices
 
-## 📂 Installation
+🚀 Quick Start
+bash
+# Clone the repository
+git clone https://github.com/yourusername/fitpulse.git
+cd fitpulse
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/FitPulse.git
-   cd FitPulse
-2. **Create a virtual environment (recommended)**
-    python -m venv venv
-    source venv/bin/activate   # Mac/Linux
-    venv\Scripts\activate      # Windows
-   
-4. **Install dependencies**
-    pip install -r requirements.txt
+# Install dependencies
+pip install -r requirements.txt
 
-5. **Run the app**
-    streamlit run app.py
-    
+# Launch the app
+streamlit run app.py
+📁 Project Structure
+text
+fitpulse/
+├── app.py              # Main Streamlit application
+├── database.py         # Database operations and SQLite setup
+├── models.py           # Data models and helper functions
+├── requirements.txt    # Python dependencies
+└── README.md          # Project documentation
+🛠️ Dependencies
+Python 3.8+
 
+Streamlit - Web application framework
+
+📄 License
+MIT License - see LICENSE file for details.
+
+💡 Acknowledgments
+Built with Streamlit
+
+Icons by Font Awesome
+
+Inspired by fitness enthusiasts worldwide.
+
+Streamlit-Autorefresh - Real-time timer updates
